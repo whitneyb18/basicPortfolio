@@ -71,7 +71,7 @@ a:hover {
 /* End header styling */
 /* index.html styling */
 /* Container with about me info */
-.aboutMeContainer {
+.contentContainer {
     position: relative;
     width: 900px;
     height: 340px;
@@ -117,8 +117,10 @@ textarea {
 /* Footer styling */
 footer {
     background-color: #666666;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
+    left: 0px;
+    right: 0px;
     width: 100%;
     border-top: 5px solid #4aaaa5;
     color: white;
